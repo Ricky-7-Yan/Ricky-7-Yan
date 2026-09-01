@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="https://github.com/Ricky-7-Yan.png" width="118" alt="Ricky-7-Yan" />
-
 # Ricky-7-Yan
 
 ### AI Agent Engineer · Open-Source Contributor
 
 `AI Agent 工程师` · `开源贡献者` · `Auditable AI Systems`
 
-> **If you can,you can!**
+*If you can,you can!*
 
 [GitHub](https://github.com/Ricky-7-Yan) · [Email](mailto:2314530442@qq.com)
 
