@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Ricky-7-Yan</title>
+  <desc id="desc">AI Agent Engineer and Open-Source Contributor</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#020617"/><stop offset="0.55" stop-color="#071426"/><stop offset="1" stop-color="#09051a"/></linearGradient>
+    <linearGradient id="neon" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset="0.55" stop-color="#38bdf8"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#0ea5e9" stroke-opacity=".08"/></pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>.pulse{animation:pulse 3.2s ease-in-out infinite}.scan{animation:scan 6s linear infinite}.float{animation:float 3.5s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}@keyframes scan{from{transform:translateY(-120px)}to{transform:translateY(390px)}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}</style>
+  </defs>
+  <rect width="1200" height="330" rx="24" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="328" rx="23" fill="none" stroke="#38bdf8" stroke-opacity=".35"/><rect width="1200" height="330" rx="24" fill="url(#grid)"/>
+  <path d="M0 245H215l32-32h110l24 24h122l38-38h183l38 38h118l28-28h340" fill="none" stroke="#38bdf8" stroke-opacity=".18"/><path d="M0 272h305l26-26h126m62 0h119l30 30h174l25-25h333" fill="none" stroke="#a855f7" stroke-opacity=".15"/>
+  <rect class="scan" x="1" y="0" width="1198" height="2" fill="#22d3ee" opacity=".16"/>
+  <g transform="translate(72 62)" filter="url(#glow)"><circle cx="98" cy="98" r="91" fill="#020617" stroke="url(#neon)" stroke-width="3"/><circle class="pulse" cx="98" cy="98" r="76" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="5 9"/><text x="98" y="115" text-anchor="middle" fill="#e2e8f0" font-size="53" font-weight="800" font-family="Segoe UI,Arial,sans-serif">R7</text><circle cx="22" cy="47" r="4" fill="#a855f7"/><circle cx="176" cy="140" r="4" fill="#22d3ee"/></g>
+  <g transform="translate(300 70)" font-family="Segoe UI,Arial,sans-serif"><text x="0" y="52" fill="#f8fafc" font-size="54" font-weight="800" letter-spacing="1">Ricky-7-Yan</text><rect x="2" y="78" width="560" height="2" fill="url(#neon)"/><text x="0" y="123" fill="#cbd5e1" font-size="24">AI Agent Engineer &amp; Open-Source Contributor</text><text x="0" y="160" fill="#38bdf8" font-size="22">AI Agent 工程师 · 开源贡献者</text><text x="0" y="214" fill="#f8fafc" font-size="27" font-style="italic">If you can,you can!</text><rect class="pulse" x="0" y="188" width="4" height="36" rx="2" fill="#22d3ee"/></g>
+  <g class="float" transform="translate(1055 98)"><rect x="18" y="20" width="62" height="54" rx="10" fill="#071426" stroke="#38bdf8" stroke-width="3"/><rect x="28" y="32" width="42" height="24" rx="4" fill="#0ea5e9" opacity=".22"/><circle cx="39" cy="44" r="4" fill="#22d3ee"/><circle cx="59" cy="44" r="4" fill="#a855f7"/><path d="M49 20V8M43 8h12M18 48H5M80 48h13M31 74v16M67 74v16" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/></g>
+  <g fill="#38bdf8" opacity=".8"><rect x="25" y="25" width="8" height="8"/><rect x="45" y="25" width="4" height="4"/><rect x="1140" y="280" width="7" height="7"/><rect x="1160" y="280" width="4" height="4"/></g>
+</svg>

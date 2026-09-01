@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="74" viewBox="0 0 1200 74" role="img" aria-label="Pixel spaceship divider">
+  <defs><linearGradient id="line" x1="0" x2="1"><stop stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></linearGradient><style>.ship{animation:fly 7s ease-in-out infinite}@keyframes fly{0%,100%{transform:translateX(-14px)}50%{transform:translateX(14px)}}</style></defs>
+  <path d="M40 37H1160" stroke="url(#line)" stroke-width="2" stroke-dasharray="5 10"/><g class="ship" transform="translate(552 15)"><path d="M0 22h18V12h14V5h26v7h15v10h20v10H73v8H20v-8H0z" fill="#334155"/><path d="M19 22h54v10H19z" fill="#38bdf8"/><path d="M32 12h26v10H32z" fill="#818cf8"/><rect x="44" y="5" width="14" height="7" fill="#c084fc"/><path d="M0 25H-18M-4 17h-25M-2 33h-34" stroke="#22d3ee" stroke-width="4" stroke-dasharray="5 5"/></g>
+  <g fill="#a855f7"><rect x="112" y="19" width="6" height="6"/><rect x="1080" y="51" width="5" height="5"/></g><g fill="#22d3ee"><rect x="178" y="49" width="4" height="4"/><rect x="1018" y="16" width="7" height="7"/></g>
+</svg>
