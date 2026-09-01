@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+  <title id="title">Agent mission control</title>
+  <desc id="desc">Animated cyberpunk mission control showing an agent core connected to memory, tools, retrieval, evaluation, and open-source systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop stop-color="#020617"/>
+      <stop offset=".5" stop-color="#071426"/>
+      <stop offset="1" stop-color="#09051a"/>
+    </linearGradient>
+    <linearGradient id="cyanPurple" x1="0" x2="1">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <radialGradient id="coreGlow">
+      <stop stop-color="#22d3ee" stop-opacity=".75"/>
+      <stop offset=".45" stop-color="#2563eb" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#38bdf8" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .mono{font-family:Consolas,Menlo,monospace}.label{font-size:11px;letter-spacing:1.8px}.small{font-size:9px;letter-spacing:1px}.dim{fill:#64748b}.cyan{fill:#22d3ee}.green{fill:#4ade80}.purple{fill:#c084fc}.white{fill:#e2e8f0}.line{fill:none;stroke:#22d3ee;stroke-opacity:.55;stroke-width:1.5}.dash{stroke-dasharray:5 6}.node{fill:#071426;stroke:#38bdf8;stroke-opacity:.65}.blink{animation:blink 1.4s steps(2,end) infinite}.pulse{animation:pulse 2.8s ease-in-out infinite}.spin{transform-origin:600px 134px;animation:spin 14s linear infinite}.spinBack{transform-origin:600px 134px;animation:spinBack 22s linear infinite}.scan{animation:scan 5s linear infinite}@keyframes blink{50%{opacity:.18}}@keyframes pulse{0%,100%{opacity:.28}50%{opacity:1}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes spinBack{to{transform:rotate(-360deg)}}@keyframes scan{from{transform:translateX(-260px)}to{transform:translateX(1230px)}}</style>
+  </defs>
+
+  <rect width="1200" height="270" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="268" rx="17" fill="none" stroke="url(#cyanPurple)" stroke-opacity=".6"/>
+  <rect width="1200" height="270" rx="18" fill="url(#grid)"/>
+  <rect class="scan" x="0" y="34" width="230" height="202" fill="#22d3ee" opacity=".025"/>
+
+  <g class="mono">
+    <text x="26" y="25" class="cyan label">AGENT://MISSION_CONTROL</text>
+    <text x="1174" y="25" text-anchor="end" class="green label">● ALL SYSTEMS NOMINAL</text>
+    <text x="26" y="254" class="dim small">TRACE_ID  7YAN-AUDIT-OSS</text>
+    <text x="1174" y="254" text-anchor="end" class="dim small">BUILD → VERIFY → SHARE</text>
+  </g>
+
+  <path d="M220 78H375l56 56M220 190h155l56-56M980 78H825l-56 56M980 190H825l-56-56" class="line dash"/>
+  <path d="M431 134H500M700 134h69" class="line"/>
+
+  <g class="mono">
+    <g transform="translate(28 48)">
+      <rect width="192" height="60" rx="9" class="node"/>
+      <rect x="12" y="13" width="34" height="34" rx="6" fill="#0ea5e9" opacity=".18"/>
+      <path d="M21 31h16M29 23v16" stroke="#22d3ee" stroke-width="2"/>
+      <text x="58" y="24" class="white label">MEMORY BUS</text>
+      <text x="58" y="42" class="green small">● CONTEXT SYNCED</text>
+      <circle cx="178" cy="15" r="3" class="green blink"/>
+    </g>
+    <g transform="translate(28 112)">
+      <rect width="192" height="60" rx="9" class="node"/>
+      <rect x="12" y="13" width="34" height="34" rx="6" fill="#a855f7" opacity=".15"/>
+      <path d="M19 35l8-12 6 7 7-9" fill="none" stroke="#c084fc" stroke-width="2"/>
+      <text x="58" y="24" class="white label">TOOL ROUTER</text>
+      <text x="58" y="42" class="purple small">◆ MCP / SKILLS READY</text>
+      <circle cx="178" cy="15" r="3" class="purple blink"/>
+    </g>
+    <g transform="translate(28 176)">
+      <rect width="192" height="60" rx="9" class="node"/>
+      <rect x="12" y="13" width="34" height="34" rx="6" fill="#14b8a6" opacity=".14"/>
+      <circle cx="29" cy="30" r="10" fill="none" stroke="#2dd4bf" stroke-width="2"/>
+      <path d="M36 37l8 8" stroke="#2dd4bf" stroke-width="2"/>
+      <text x="58" y="24" class="white label">RAG CHANNEL</text>
+      <text x="58" y="42" fill="#2dd4bf" class="small">⌁ EVIDENCE LOCKED</text>
+      <circle cx="178" cy="15" r="3" fill="#2dd4bf" class="blink"/>
+    </g>
+  </g>
+
+  <g>
+    <circle cx="600" cy="134" r="122" fill="url(#coreGlow)"/>
+    <circle cx="600" cy="134" r="88" fill="none" stroke="#38bdf8" stroke-opacity=".18"/>
+    <circle cx="600" cy="134" r="70" fill="none" stroke="#a855f7" stroke-opacity=".18"/>
+    <g class="spin">
+      <circle cx="600" cy="46" r="5" fill="#22d3ee" filter="url(#glow)"/>
+      <circle cx="688" cy="134" r="4" fill="#4ade80"/>
+      <circle cx="600" cy="222" r="4" fill="#a855f7"/>
+      <circle cx="512" cy="134" r="3" fill="#f472b6"/>
+    </g>
+    <g class="spinBack">
+      <path d="M600 64A70 70 0 0 1 670 134" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="18 10"/>
+      <path d="M600 204A70 70 0 0 1 530 134" fill="none" stroke="#a855f7" stroke-width="2" stroke-dasharray="12 12"/>
+    </g>
+    <path d="M570 96h60l18 18v40l-18 18h-60l-18-18v-40z" fill="#06182b" stroke="url(#cyanPurple)" stroke-width="2" filter="url(#glow)"/>
+    <rect x="570" y="116" width="60" height="34" rx="5" fill="#0ea5e9" opacity=".14"/>
+    <rect x="581" y="128" width="8" height="8" fill="#22d3ee" class="blink"/>
+    <rect x="611" y="128" width="8" height="8" fill="#c084fc" class="blink"/>
+    <path d="M583 158h34" stroke="#4ade80" stroke-width="3" stroke-dasharray="5 4"/>
+    <g class="mono" text-anchor="middle">
+      <text x="600" y="85" class="cyan small">PLAN / EXECUTE / REFLECT</text>
+      <text x="600" y="190" class="white label">AUDITABLE AGENT CORE</text>
+      <text x="600" y="207" class="dim small">STATE  ██████████  100%</text>
+    </g>
+  </g>
+
+  <g class="mono">
+    <g transform="translate(980 48)">
+      <rect width="192" height="60" rx="9" class="node"/>
+      <text x="14" y="23" class="white label">EVAL HARNESS</text>
+      <text x="14" y="42" class="green small">PASS  ████████░░</text>
+      <path d="M151 38l8 8 18-23" fill="none" stroke="#4ade80" stroke-width="3"/>
+    </g>
+    <g transform="translate(980 112)">
+      <rect width="192" height="60" rx="9" class="node"/>
+      <text x="14" y="23" class="white label">OSS UPLINK</text>
+      <text x="14" y="42" class="purple small">MERGED / REVIEWED</text>
+      <path d="M152 31h26M165 18v26" stroke="#c084fc" stroke-width="2"/>
+    </g>
+    <g transform="translate(980 176)">
+      <rect width="192" height="60" rx="9" class="node"/>
+      <text x="14" y="23" class="white label">TRUST LAYER</text>
+      <text x="14" y="42" class="cyan small">HASH / LOG / REPLAY</text>
+      <path d="M153 25h24v20h-24zM158 25v-7h14v7" fill="none" stroke="#22d3ee" stroke-width="2"/>
+    </g>
+  </g>
+
+  <g class="pulse" fill="#22d3ee">
+    <circle cx="375" cy="78" r="3"/><circle cx="375" cy="190" r="3"/><circle cx="825" cy="78" r="3"/><circle cx="825" cy="190" r="3"/>
+  </g>
+</svg>

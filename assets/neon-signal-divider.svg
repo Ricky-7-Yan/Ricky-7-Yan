@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="52" viewBox="0 0 1200 52" role="img" aria-label="Animated neon signal divider">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1"><stop stop-color="#22d3ee" stop-opacity="0"/><stop offset=".28" stop-color="#22d3ee"/><stop offset=".72" stop-color="#a855f7"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-30%" y="-300%" width="160%" height="700%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <path d="M0 26h440l18-14h62l18 14h124l18-14h62l18 14h440" fill="none" stroke="url(#line)" stroke-width="2"/>
+  <g filter="url(#glow)">
+    <circle r="4" fill="#22d3ee"><animateMotion dur="4s" repeatCount="indefinite" path="M40 26H1160"/></circle>
+    <circle r="3" fill="#c084fc"><animateMotion dur="5.5s" repeatCount="indefinite" path="M1160 26H40"/></circle>
+  </g>
+  <g font-family="Consolas,Menlo,monospace" font-size="10" text-anchor="middle"><text x="600" y="20" fill="#94a3b8" letter-spacing="3">SIGNAL LOCKED</text><text x="600" y="42" fill="#475569" letter-spacing="2">BUILD · VERIFY · SHARE</text></g>
+</svg>

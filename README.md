@@ -6,6 +6,10 @@
 
 ### AI Agent Engineer · Open-Source Contributor
 
+<a href="https://github.com/Ricky-7-Yan">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Building+auditable+AI+agent+systems;Turning+experiments+into+reproducible+evidence;Contributing+to+open-source%2C+one+verified+change+at+a+time" alt="Animated introduction" />
+</a>
+
 `AI Agent 工程师` · `开源贡献者` · `Auditable AI Systems`
 
 *If you can,you can!*
@@ -16,7 +20,7 @@
 
 </div>
 
-<p align="center"><samp>━━━ ◇ ━━━</samp></p>
+<img src="./assets/neon-signal-divider.svg" width="100%" alt="Animated neon signal divider" />
 
 <table>
 <tr>
@@ -45,6 +49,10 @@ $ mission --build --verify
 </td>
 </tr>
 </table>
+
+### `◉ ~/mission-control`
+
+<img src="./assets/agent-mission-control.svg" width="100%" alt="Animated agent mission control with memory, tools, retrieval, evaluation and open-source systems" />
 
 ### `⚡ ~/stack`
 
@@ -81,7 +89,22 @@ $ mission --build --verify
 
 </details>
 
-<p align="center"><samp>━━━ ✦ ━━━</samp></p>
+### `◫ ~/live-signals`
+
+<div align="center">
+
+<a href="https://github.com/Ricky-7-Yan">
+  <img height="168" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ricky-7-Yan&theme=github_dark" alt="Ricky-7-Yan GitHub statistics" />
+</a>
+<a href="https://github.com/Ricky-7-Yan">
+  <img height="168" src="https://streak-stats.demolab.com?user=Ricky-7-Yan&hide_border=true&background=020617&ring=22D3EE&fire=A855F7&currStreakLabel=38BDF8&sideLabels=94A3B8&currStreakNum=E2E8F0&sideNums=E2E8F0&dates=64748B" alt="Ricky-7-Yan contribution streak" />
+</a>
+
+<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ricky-7-Yan&theme=github_dark" alt="Ricky-7-Yan open-source activity summary" />
+
+</div>
+
+<img src="./assets/neon-signal-divider.svg" width="100%" alt="Animated neon signal divider" />
 
 <div align="center">
 
