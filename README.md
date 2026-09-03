@@ -74,6 +74,7 @@ $ mission --build --verify
 | Project | Role | Focus |
 | :--- | :---: | :--- |
 | [**intelligent-audit-system**](https://github.com/Ricky-7-Yan/intelligent-audit-system) | `🟦 FLAGSHIP` | 🤖 Auditable enterprise AI agents and governed workflows |
+| [**microsoft/agent-framework**](https://github.com/microsoft/agent-framework) | `🟪 MERGED` | 🧩 Agent SDKs, orchestration and concurrency reliability |
 | [**Tencent/YOLO-Master**](https://github.com/Tencent/YOLO-Master) | `🟪 MERGED` | 👁 Computer vision, MoE and deployment validation |
 | [**The-PR-Agent/pr-agent**](https://github.com/The-PR-Agent/pr-agent) | `🟪 MERGED` | 🛠 AI-assisted pull-request review and developer tooling |
 | [**gptme/gptme**](https://github.com/gptme/gptme) | `🟪 MERGED` | 💻 Terminal agents, local tools and background jobs |
@@ -86,23 +87,28 @@ $ mission --build --verify
 - **PR-Agent:** [#2870](https://github.com/The-PR-Agent/pr-agent/pull/2870)
 - **gptme:** [#3673](https://github.com/gptme/gptme/pull/3673)
 - **DeerFlow:** [#5051](https://github.com/bytedance/deer-flow/pull/5051)
+- **Microsoft Agent Framework:** [#7680](https://github.com/microsoft/agent-framework/pull/7680)
 
 </details>
 
 ### `◫ ~/live-signals`
 
-<div align="center">
+<!-- profile-stats:start -->
+<!-- Updated automatically from the GitHub GraphQL API. -->
+| ⭐ Owned repo stars | 📦 Public repos | 🟩 Contributions (1 year) |
+| :---: | :---: | :---: |
+| **1,179** | **53** | **328** |
 
-<a href="https://github.com/Ricky-7-Yan">
-  <img height="168" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ricky-7-Yan&theme=github_dark" alt="Ricky-7-Yan GitHub statistics" />
-</a>
-<a href="https://github.com/Ricky-7-Yan">
-  <img height="168" src="https://streak-stats.demolab.com?user=Ricky-7-Yan&hide_border=true&background=020617&ring=22D3EE&fire=A855F7&currStreakLabel=38BDF8&sideLabels=94A3B8&currStreakNum=E2E8F0&sideNums=E2E8F0&dates=64748B" alt="Ricky-7-Yan contribution streak" />
-</a>
+| 💾 Commits (1 year) | 🔀 Pull requests (1 year) | 💬 Issues (1 year) |
+| :---: | :---: | :---: |
+| **234** | **44** | **2** |
 
-<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ricky-7-Yan&theme=github_dark" alt="Ricky-7-Yan open-source activity summary" />
+| 🔥 Current streak | 🏆 Longest streak (1 year) | 🤝 External repos contributed to |
+| :---: | :---: | :---: |
+| **8 days** | **8 days** | **31** |
+<!-- profile-stats:end -->
 
-</div>
+<sub>Official GitHub data · refreshed automatically when the numbers change</sub>
 
 <img src="./assets/neon-signal-divider.svg" width="100%" alt="Animated neon signal divider" />
 
