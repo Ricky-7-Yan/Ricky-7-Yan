@@ -97,11 +97,11 @@ $ mission --build --verify
 <!-- Updated automatically from the GitHub GraphQL API. -->
 | ⭐ Owned repo stars | 📦 Public repos | 🟩 Contributions (1 year) |
 | :---: | :---: | :---: |
-| **1,180** | **54** | **380** |
+| **1,180** | **54** | **377** |
 
 | 💾 Commits (1 year) | 🔀 Pull requests (1 year) | 💬 Issues (1 year) |
 | :---: | :---: | :---: |
-| **268** | **47** | **4** |
+| **266** | **47** | **4** |
 
 | 🔥 Current streak | 🏆 Longest streak (1 year) | 🤝 External repos contributed to |
 | :---: | :---: | :---: |
