@@ -77,6 +77,7 @@ $ mission --build --verify
 | [**microsoft/agent-framework**](https://github.com/microsoft/agent-framework) | `🟪 MERGED` | 🧩 Agent SDKs, orchestration and concurrency reliability |
 | [**Tencent/YOLO-Master**](https://github.com/Tencent/YOLO-Master) | `🟪 MERGED` | 👁 Computer vision, MoE and deployment validation |
 | [**The-PR-Agent/pr-agent**](https://github.com/The-PR-Agent/pr-agent) | `🟪 MERGED` | 🛠 AI-assisted pull-request review and developer tooling |
+| [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | `🟪 MERGED` | 🔎 Production-ready LLM pipelines, integrations and documentation |
 | [**gptme/gptme**](https://github.com/gptme/gptme) | `🟪 MERGED` | 💻 Terminal agents, local tools and background jobs |
 | [**bytedance/deer-flow**](https://github.com/bytedance/deer-flow) | `🟪 MERGED` | 🧠 Long-horizon agents, checkpoints and reliability testing |
 
@@ -84,9 +85,10 @@ $ mission --build --verify
 <summary><b>✧ Verified merged PRs · 已合并贡献记录</b></summary>
 
 - **YOLO-Master:** [#88](https://github.com/Tencent/YOLO-Master/pull/88) · [#94](https://github.com/Tencent/YOLO-Master/pull/94) · [#95](https://github.com/Tencent/YOLO-Master/pull/95)
-- **PR-Agent:** [#2870](https://github.com/The-PR-Agent/pr-agent/pull/2870)
+- **PR-Agent:** [#2870](https://github.com/The-PR-Agent/pr-agent/pull/2870) · [#3000](https://github.com/The-PR-Agent/pr-agent/pull/3000) · [#3048](https://github.com/The-PR-Agent/pr-agent/pull/3048) · [#3065](https://github.com/The-PR-Agent/pr-agent/pull/3065) · [#3146](https://github.com/The-PR-Agent/pr-agent/pull/3146)
+- **Haystack:** [#12515](https://github.com/deepset-ai/haystack/pull/12515)
 - **gptme:** [#3673](https://github.com/gptme/gptme/pull/3673)
-- **DeerFlow:** [#5051](https://github.com/bytedance/deer-flow/pull/5051)
+- **DeerFlow:** [#5051](https://github.com/bytedance/deer-flow/pull/5051) · [#5185](https://github.com/bytedance/deer-flow/pull/5185)
 - **Microsoft Agent Framework:** [#7680](https://github.com/microsoft/agent-framework/pull/7680)
 
 </details>
