@@ -101,15 +101,15 @@ $ mission --build --verify
 <!-- Updated automatically from the GitHub GraphQL API. -->
 | ⭐ Owned repo stars | 📦 Public repos | 🟩 Contributions (1 year) |
 | :---: | :---: | :---: |
-| **1,180** | **55** | **395** |
+| **1,180** | **55** | **403** |
 
-| 💾 Commits (1 year) | 🔀 Pull requests (1 year) | 💬 Issues (1 year) |
-| :---: | :---: | :---: |
-| **277** | **49** | **4** |
+| 💾 Commits (1 year) | 🔀 Pull requests (1 year) | 🔎 Code reviews (1 year) | 💬 Issues (1 year) |
+| :---: | :---: | :---: | :---: |
+| **279** | **49** | **22** | **4** |
 
 | 🔥 Current streak | 🏆 Longest streak (1 year) | 🤝 External repos contributed to |
 | :---: | :---: | :---: |
-| **16 days** | **16 days** | **32** |
+| **16 days** | **16 days** | **35** |
 <!-- profile-stats:end -->
 
 <sub>Official GitHub data · refreshed automatically when the numbers change</sub>
