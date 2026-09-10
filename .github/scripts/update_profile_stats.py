@@ -41,7 +41,7 @@ query ProfileStats($login: String!, $cursor: String) {
     repositoriesContributedTo(
       first: 1
       includeUserRepositories: false
-      contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]
+      contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, PULL_REQUEST_REVIEW, REPOSITORY]
     ) {
       totalCount
     }
@@ -49,6 +49,7 @@ query ProfileStats($login: String!, $cursor: String) {
       totalCommitContributions
       totalIssueContributions
       totalPullRequestContributions
+      totalPullRequestReviewContributions
       contributionCalendar {
         totalContributions
         weeks {
@@ -176,6 +177,7 @@ def fetch_stats(token: str) -> dict[str, int]:
         "contributions": calendar["totalContributions"],
         "commits": contributions["totalCommitContributions"],
         "pull_requests": contributions["totalPullRequestContributions"],
+        "code_reviews": contributions["totalPullRequestReviewContributions"],
         "issues": contributions["totalIssueContributions"],
         "current_streak": current_streak,
         "longest_streak": longest_streak,
@@ -193,9 +195,9 @@ def render(stats: dict[str, int]) -> str:
             "| :---: | :---: | :---: |",
             f"| **{value('stars')}** | **{value('public_repos')}** | **{value('contributions')}** |",
             "",
-            "| 💾 Commits (1 year) | 🔀 Pull requests (1 year) | 💬 Issues (1 year) |",
-            "| :---: | :---: | :---: |",
-            f"| **{value('commits')}** | **{value('pull_requests')}** | **{value('issues')}** |",
+            "| 💾 Commits (1 year) | 🔀 Pull requests (1 year) | 🔎 Code reviews (1 year) | 💬 Issues (1 year) |",
+            "| :---: | :---: | :---: | :---: |",
+            f"| **{value('commits')}** | **{value('pull_requests')}** | **{value('code_reviews')}** | **{value('issues')}** |",
             "",
             "| 🔥 Current streak | 🏆 Longest streak (1 year) | 🤝 External repos contributed to |",
             "| :---: | :---: | :---: |",
