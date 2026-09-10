@@ -75,6 +75,7 @@ $ mission --build --verify
 | :--- | :---: | :--- |
 | [**intelligent-audit-system**](https://github.com/Ricky-7-Yan/intelligent-audit-system) | `🟦 FLAGSHIP` | 🤖 Auditable enterprise AI agents and governed workflows |
 | [**microsoft/agent-framework**](https://github.com/microsoft/agent-framework) | `🟪 MERGED` | 🧩 Agent SDKs, orchestration and concurrency reliability |
+| [**oras-project/oras-go**](https://github.com/oras-project/oras-go) | `🟪 MERGED` | 📦 OCI registry client, Go toolchain and CI reliability |
 | [**Tencent/YOLO-Master**](https://github.com/Tencent/YOLO-Master) | `🟪 MERGED` | 👁 Computer vision, MoE and deployment validation |
 | [**The-PR-Agent/pr-agent**](https://github.com/The-PR-Agent/pr-agent) | `🟪 MERGED` | 🛠 AI-assisted pull-request review and developer tooling |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | `🟪 MERGED` | 🔎 Production-ready LLM pipelines, integrations and documentation |
@@ -89,6 +90,7 @@ $ mission --build --verify
 - **Haystack:** [#12515](https://github.com/deepset-ai/haystack/pull/12515)
 - **gptme:** [#3673](https://github.com/gptme/gptme/pull/3673)
 - **DeerFlow:** [#5051](https://github.com/bytedance/deer-flow/pull/5051) · [#5185](https://github.com/bytedance/deer-flow/pull/5185)
+- **ORAS Go:** [#1417](https://github.com/oras-project/oras-go/pull/1417)
 - **Microsoft Agent Framework:** [#7680](https://github.com/microsoft/agent-framework/pull/7680)
 
 </details>
