@@ -90,7 +90,7 @@ $ mission --build --verify
 - **Haystack:** [#12515](https://github.com/deepset-ai/haystack/pull/12515)
 - **gptme:** [#3673](https://github.com/gptme/gptme/pull/3673)
 - **DeerFlow:** [#5051](https://github.com/bytedance/deer-flow/pull/5051) · [#5185](https://github.com/bytedance/deer-flow/pull/5185)
-- **ORAS Go:** [#1417](https://github.com/oras-project/oras-go/pull/1417)
+- **ORAS Go:** [#1417](https://github.com/oras-project/oras-go/pull/1417) · [#1419](https://github.com/oras-project/oras-go/pull/1419)
 - **Microsoft Agent Framework:** [#7680](https://github.com/microsoft/agent-framework/pull/7680)
 
 </details>
