@@ -109,7 +109,7 @@ $ mission --build --verify
 
 | 🔥 Current streak | 🏆 Longest streak (1 year) | 🤝 External repos contributed to |
 | :---: | :---: | :---: |
-| **19 days** | **19 days** | **35** |
+| **0 days** | **19 days** | **35** |
 <!-- profile-stats:end -->
 
 <sub>Official GitHub data · refreshed automatically when the numbers change</sub>
