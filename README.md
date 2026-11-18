@@ -105,11 +105,11 @@ $ mission --build --verify
 
 | 💾 Commits (1 year) | 🔀 Pull requests (1 year) | 🔎 Code reviews (1 year) | 💬 Issues (1 year) |
 | :---: | :---: | :---: | :---: |
-| **243** | **55** | **32** | **4** |
+| **241** | **53** | **26** | **4** |
 
 | 🔥 Current streak | 🏆 Longest streak (1 year) | 🤝 External repos contributed to |
 | :---: | :---: | :---: |
-| **0 days** | **19 days** | **35** |
+| **0 days** | **19 days** | **34** |
 <!-- profile-stats:end -->
 
 <sub>Official GitHub data · refreshed automatically when the numbers change</sub>
